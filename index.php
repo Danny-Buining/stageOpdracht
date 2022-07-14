@@ -8,7 +8,6 @@ include'connect.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/main.css" rel="stylesheet">
-    <script src="./js/tinyMCE.js"></script>
     <title>Index.php</title>
 
     <script src="https://cdn.tiny.cloud/1/qdhagk3d3npd94r5reejhxrr4fqeua1t751wz4p7ipnw6pto/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
