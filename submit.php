@@ -1,0 +1,26 @@
+<?php 
+include'connect.php';
+
+$editorContent = $statusMsg = '';
+
+// If the form is submitted
+if(isset($_POST['submit'])){
+    // Get editor content
+    $editorContent = $_POST['editor'];
+    
+    // Check whether the editor content is empty
+    if(!empty($editorContent)){
+        // Insert editor content in the database
+        $insert = $conn->query("INSERT INTO posts (messages) VALUES (?)");
+        
+        // If database insertion is successful
+        if($insert){
+            $statusMsg = "The editor content has been inserted successfully.";
+        }else{
+            $statusMsg = "Some problem occurred, please try again.";
+        } 
+    }else{
+        $statusMsg = 'Please add content in the editor.';
+    }
+}
+?>

@@ -1,0 +1,50 @@
+body {
+    /* background-color: grey; */
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2, p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.messageBox {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-size: 125%;
+    border-radius: 10px;
+}
+
+.header {
+    background-color: grey;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+}
+
+/* .messagePost {
+    padding: 20px;
+    background-color: grey;
+    color: white;
+    font-size: 110%;
+    border-radius: 10px; 
+} */
+/* 
+.btnPost {
+    width: 100%;
+    background-color: blue;
+    border: 0px;
+    border-radius: 3px;
+} */
+
+.padding {
+    padding: 25px;
+}
